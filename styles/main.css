@@ -53,3 +53,51 @@
     top: 7px;
     left: -13px;
 }
+
+.nav-bottom {
+    background: #fff;
+}
+.nav-bottom__wrapper {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bottom__call-us {
+    font-family: 'Roboto Light';
+    font-size: 14px;
+}
+
+.nav-bottom__right-block {
+    display: flex;
+}
+
+.nav-bottom__auth-block {
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+}
+.nav-bottom__auth-block span {
+    font-family: 'Roboto Light';
+    font-size: 14px;
+    padding: 0px 4px;
+    color: #7e7e7e;
+}
+.nav-bottom__auth-link {
+    font-family: 'Roboto Light';
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bottom__auth-link:hover {
+    color: #2879fe;
+}
+
+.nav-bottom__cart {
+    cursor: pointer;
+}
+
+.nav-bottom__cart:hover path{
+    stroke: #2879fe;
+}
